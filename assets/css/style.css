@@ -1,0 +1,66 @@
+body {
+    color: black;
+    background-image: linear-gradient(to bottom right, #b3ddf2, white, #f7797d);
+
+}
+
+
+.container {
+    padding-bottom: 500px;
+    color: black;
+}
+
+.tien-image{
+    height: 290px;
+    width: 230px;
+}
+
+#github-logo{
+    height: 70px;
+    width: 100px;
+}
+
+.fixed-bottom {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #921d1d;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  
+  }
+  
+  #logo {
+    float: left;
+    width: 250px;
+    height: 95px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  

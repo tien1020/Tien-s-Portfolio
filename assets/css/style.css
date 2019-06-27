@@ -5,10 +5,10 @@ body {
 }
 
 
-.container {
+/* .container {
     padding-bottom: 500px;
     color: black;
-}
+} */
 
 .tien-image{
     height: 290px;
@@ -62,5 +62,55 @@ body {
     float: right;
     margin-top: 25px;
     font-weight: bold;
+  }
+  
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+    
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 40%;
+  }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    height: 230px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
   }
   

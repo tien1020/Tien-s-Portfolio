@@ -114,5 +114,14 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
+
+  #linkedin {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .resume-btn {
+    background-color: #f7797d;
+    font-weight: bold;
+  }
   
   

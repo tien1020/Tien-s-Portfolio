@@ -14,6 +14,9 @@ app.use("/cors/*", function(req, res) {
   req.pipe(request(req.params[0])).pipe(res);
 });
 
+require("./routes/html-routes.js")(app);
+
+
 app.listen(PORT, function() {
   console.log("CORS-enabled web server listening on port " + PORT);
 });

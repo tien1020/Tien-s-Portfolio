@@ -1,18 +1,31 @@
 body {
-    color: black;
-    background-image: linear-gradient(to bottom right, #b3ddf2, white, #f7797d);
+    color:#4d4d4d;
+    background-image: url("../images/Blue\ polygonal\ background.jpg") ;
+    background-size: cover;
+    font-family: Georgia, Helvetica, sans-serif, serif;
+}
+
+.title {
+  text-align: right;
+  font: serif;
+}
+
+h4, h5 {
+  padding: 30px;
+  font-weight: bold;
 
 }
 
-
-/* .container {
-    padding-bottom: 500px;
-    color: black;
-} */
+h5 {
+  font: normal normal bold 43px/1.4em 'noticia text',serif;
+  font-size: 20px;
+  font-style: italic;
+}
 
 .tien-image{
-    height: 290px;
-    width: 230px;
+    height: 385px;
+    width: 375px;
+    border-radius: 50%;
 }
 
 #github-logo{
@@ -28,7 +41,6 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
     height: 50px;
   }
 
@@ -40,8 +52,8 @@ body {
     overflow: auto;
     color: #921d1d;
     background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-  
+    /* border-bottom: 2px solid #cccccc; */
+    background: rgba(171, 205, 239, 0.3);
   }
   
   #logo {
@@ -52,10 +64,9 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #ffffff;
+    color: #4d4d4d;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
   }
   
   nav {
@@ -67,7 +78,7 @@ body {
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-    
+
   }
   
   .main-section {
@@ -77,8 +88,27 @@ body {
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
-    border: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
     margin-bottom: 40%;
+    background: rgba(171, 205, 239, 0.3)
+  }
+
+ #linkedin-logo:hover, #github-logo:hover, .resume-btn:hover {
+  
+    transform: scale(1.5);
+ }
+
+  #linkedin-logo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .resume-btn {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding: 0%;
+    padding-top: 20px;
   }
 
   .work {

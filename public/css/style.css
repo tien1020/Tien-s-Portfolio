@@ -198,6 +198,7 @@ h5 {
     .tien-image, .main-bio
    {
       width: 100%;
+      height: 100%;
     }
   .main-border{
     width: 100%;
@@ -215,7 +216,6 @@ h5 {
     #logo {    
       max-width: 640px;
       width:100%;
-      height: 100%;
       text-align: center;
     }
     nav {
@@ -245,6 +245,7 @@ h5 {
   
     .tien-image, .main-bio {
       width: 100%;
+      height: 100%;
     }
   
   

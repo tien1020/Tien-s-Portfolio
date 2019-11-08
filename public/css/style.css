@@ -176,11 +176,17 @@ h5 {
   }
 
   @media screen and (max-width: 768px) {
+    #logo {    
+      font-size: 95%;
+      max-width: 768px;
+      width:100%;
+      text-align: center;
+    }
     nav {
       margin-top: 25px;
       max-width: 20px;
       width: 100%;
-      text-align: right;
+      text-align: left;
     } 
   
     .container {
@@ -213,9 +219,9 @@ h5 {
     }
     nav {
       margin-top: 25px;
-      max-width: 640px;
+      max-width: 250px;
       width:100%;
-      text-align: center;
+      text-align: left;
     }
     #main-container {
       padding-top: 10px;

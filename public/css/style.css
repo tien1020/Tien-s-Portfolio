@@ -170,5 +170,78 @@ h5 {
     background-color: #f7797d;
     font-weight: bold;
   }
+
+  @media screen and (max-width: 980px) {
+ 
+  }
+
+  @media screen and (max-width: 768px) {
+    nav {
+      margin-top: 25px;
+      max-width: 20px;
+      width: 100%;
+      text-align: right;
+    } 
+  
+    .container {
+       
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .tien-image, .main-bio
+   {
+      width: 100%;
+    }
+  .main-border{
+    width: 100%;
+  }
+    header {
+      margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    #masthead {
+      position: static;
+      clear: both;
+    }  
+    #logo {    
+      max-width: 640px;
+      width:100%;
+      text-align: center;
+    }
+    nav {
+      margin-top: 25px;
+      max-width: 640px;
+      width:100%;
+      text-align: center;
+    }
+    #main-container {
+      padding-top: 10px;
+      min-height: calc(100vh - 70px);
+    }
+    .main-section {    
+      width: 100%;
+      max-width: 640px;  
+    }
+   
+    .work {   
+      width: 100%;    
+    }   
+  
+    .container {
+       
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .tien-image, .main-bio {
+      width: 100%;
+    }
+  
+  
+    
+  }
   
   

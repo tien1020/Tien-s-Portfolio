@@ -2,7 +2,7 @@ body {
     color:#4d4d4d;
     background-image: url("../images/Blue\ polygonal\ background.jpg") ;
     background-size: cover;
-    font-family: Georgia, Helvetica, sans-serif, serif;
+    font-family: Georgia, Helvetica, sans-serif, serif, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 .title {
@@ -103,6 +103,22 @@ h5 {
     width: 70px;
   }
 
+  .dev-icons {
+    font-size: 40px;
+    color: #4d4d4d;
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color: #BD5D38;
+  }
+.skill-item{
+  font-size:16px;
+  font-weight: bold;
+}
+
+.skill-item:hover{
+  color: #BD5D38;
+}
   .resume-btn {
     height: 70px;
     width: 70px;

@@ -5,6 +5,13 @@ body {
     font-family: Georgia, Helvetica, sans-serif, serif, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
 .title {
   text-align: right;
   font: serif;
@@ -26,6 +33,10 @@ h5 {
     height: 380px;
     width: 380px;
     border-radius: 50%;
+    float: left;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 #github-logo{
@@ -74,6 +85,20 @@ h5 {
     margin-top: 25px;
     font-weight: bold;
   }
+
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
   
   #main-container {
     padding-top: 130px;
@@ -88,7 +113,6 @@ h5 {
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
-    /* border: 1px solid #dddddd; */
     margin-bottom: 40%;
     background: rgba(171, 205, 239, 0.3)
   }
@@ -178,88 +202,71 @@ h5 {
       height: auto;
       max-width: 100%;
      }
+    
+
   }
 
   @media screen and (max-width: 768px) {
-    #logo {    
-      font-size: 95%;
-      max-width: 768px;
-      width:100%;
-      text-align: center;
-    }
+   #logo{
+     font-size: 95%;
+     width: 100%;
+     /* max-width: 600px; */
+     text-align: center;
+   }
     nav {
-      margin-top: 25px;
-      max-width: 20px;
+      max-width: 100px;
       width: 100%;
-      text-align: left;
+      text-align: center;
     } 
-  
-    .container {
-       
-      width: 100%;
-      padding: 20px;
-    }
-    .main-bio{
-      width: 80%;
-    }
-    .tien-image
-   {
-      width: auto;
-      height: auto;
-      max-width: 100%;
-    }
-  .main-border{
-    width: 100%;
-  }
-    header {
-      margin-top: 40px;
-    }
-   
-  }
-
-  @media screen and (max-width: 640px) {
-    #masthead {
-      position: static;
-      clear: both;
-    }  
-    #logo {    
-      max-width: 640px;
-      width:100%;
-      text-align: center;
-    }
-    nav {
-      /* margin-top: 25px; */
-      width: auto;
-      height: auto;
-      max-width: 100%;
-      text-align: left;
-      margin: 0;
-      padding: 0;
-    }
   
     .main-section {    
       width: 100%;
       max-width: 640px;  
     }
+    .tien-image
+   {
+      width: 100%;
+      /* height: auto; */
+      max-width: 768px;
+    }
+
+ 
    
+  }
+
+  @media screen and (max-width: 575px) {
+    #masthead {
+      position: static;
+      clear: both;
+      margin-bottom: 20px;
+
+    }  
+    #logo {    
+      max-width: 575px;
+
+      width:100%;
+      text-align: left;
+    }
+    nav{
+      max-width: 575px;
+      width:100%;
+      text-align:left;
+    }
+    #main-container {
+      padding-top: 10px;
+      min-height: calc(100vh - 70px);
+    }
+    .main-section {    
+      width: 100%;
+      max-width: 640px;  
+    }
+    .tien-image {    
+      width: 100%;    
+    }
     .work {   
       width: 100%;    
     }   
-  
-    .container {
-       
-      width: 100%;
-      padding: 20px;
-    }
-  
-    .tien-image{
-      width: auto;
-      height: auto;
-      max-width: 100%;
-    }
-  
-  
-    
+
   }
   
   

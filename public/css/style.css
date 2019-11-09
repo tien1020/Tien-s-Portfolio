@@ -63,7 +63,7 @@ h5 {
     overflow: auto;
     color: #921d1d;
     background: #ffffff;
-    /* border-bottom: 2px solid #cccccc; */
+    border-bottom: 2px solid #cccccc;
     background: rgba(171, 205, 239, 0.3);
   }
   
@@ -86,14 +86,15 @@ h5 {
     font-weight: bold;
   }
 
+
   nav a {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: #4d4d4d;
     text-decoration: none;
-    border-left: 1px solid #efefef;
+    border-left: 1px solid #cccccc;
   }
   
   nav a:first-child {
@@ -156,7 +157,6 @@ h5 {
     float: left;
     width: 274px;
     height: 200px;
-    margin: 20px 0 25px;
     overflow: auto;
   }
   
@@ -165,26 +165,24 @@ h5 {
   }
   
   .work img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 150px;
     border: 0 none;
-    opacity: 0.8;
   }
   
   
   .work a {
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     width: 100%;
-    padding: 7px;
     margin-bottom: 0;
-    font-weight: 300;
     line-height: 30px;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
-    border-bottom: 0;
   }
+
+  
 
   #linkedin {
     font-weight: bold;
@@ -202,22 +200,59 @@ h5 {
       height: auto;
       max-width: 100%;
      }
+
+     #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
     
 
   }
 
   @media screen and (max-width: 768px) {
-   #logo{
+   /* #logo{
      font-size: 95%;
      width: 100%;
-     /* max-width: 600px; */
      text-align: center;
-   }
-    nav {
+   } */
+    /* nav {
       max-width: 100px;
       width: 100%;
       text-align: center;
-    } 
+    }  */
   
     .main-section {    
       width: 100%;
@@ -243,7 +278,7 @@ h5 {
     }  
     #logo {    
       max-width: 575px;
-
+      margin-bottom: -30px;
       width:100%;
       text-align: left;
     }
@@ -251,6 +286,7 @@ h5 {
       max-width: 575px;
       width:100%;
       text-align:left;
+      margin: 0;
     }
     #main-container {
       padding-top: 10px;
@@ -263,6 +299,13 @@ h5 {
     .tien-image {    
       width: 100%;    
     }
+    .fullstack{
+      font-size: 90%;
+    }
+    h4{
+      font-size: 20px;
+    }
+    
     .work {   
       width: 100%;    
     }   

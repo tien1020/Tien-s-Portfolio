@@ -97,7 +97,9 @@ body {
   }
   
   #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e;
+    /* outline-color: #d48a6e; */
+    outline-color: teal;
+
   }
   
   @media (min-width: 992px) {
@@ -167,11 +169,14 @@ body {
   }
   
   .bg-primary {
-    background-color: #BD5D38 !important;
+    background-color: teal !important;
+  }
+  h2{
+    color: teal;
   }
   
   .text-primary {
-    color: #BD5D38 !important;
+    color: teal !important;
   }
   
   a {

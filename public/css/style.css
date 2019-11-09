@@ -243,17 +243,8 @@ h5 {
   }
 
   @media screen and (max-width: 768px) {
-   /* #logo{
-     font-size: 95%;
-     width: 100%;
-     text-align: center;
-   } */
-    /* nav {
-      max-width: 100px;
-      width: 100%;
-      text-align: center;
-    }  */
-  
+
+
     .main-section {    
       width: 100%;
       max-width: 640px;  
@@ -264,9 +255,17 @@ h5 {
       /* height: auto; */
       max-width: 768px;
     }
+    #masthead {
+      position: static;
+      clear: both;
+      margin-bottom: 20px;
 
- 
-   
+    }  
+    #main-container {
+      padding-top: 10px;
+      min-height: calc(100vh - 70px);
+    }
+
   }
 
   @media screen and (max-width: 575px) {

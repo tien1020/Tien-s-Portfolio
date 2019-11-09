@@ -172,7 +172,12 @@ h5 {
   }
 
   @media screen and (max-width: 980px) {
- 
+    .tien-image
+    {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+     }
   }
 
   @media screen and (max-width: 768px) {
@@ -194,11 +199,14 @@ h5 {
       width: 100%;
       padding: 20px;
     }
-  
-    .tien-image, .main-bio
+    .main-bio{
+      width: 80%;
+    }
+    .tien-image
    {
-      width: 100%;
-      height: 100%;
+      width: auto;
+      height: auto;
+      max-width: 100%;
     }
   .main-border{
     width: 100%;
@@ -206,6 +214,7 @@ h5 {
     header {
       margin-top: 40px;
     }
+   
   }
 
   @media screen and (max-width: 640px) {
@@ -219,15 +228,15 @@ h5 {
       text-align: center;
     }
     nav {
-      margin-top: 25px;
-      max-width: 240px;
-      width:100%;
+      /* margin-top: 25px; */
+      width: auto;
+      height: auto;
+      max-width: 100%;
       text-align: left;
+      margin: 0;
+      padding: 0;
     }
-    #main-container {
-      padding-top: 10px;
-      min-height: calc(100vh - 70px);
-    }
+  
     .main-section {    
       width: 100%;
       max-width: 640px;  
@@ -243,9 +252,10 @@ h5 {
       padding: 20px;
     }
   
-    .tien-image, .main-bio {
-      width: 100%;
-      height: 100%;
+    .tien-image{
+      width: auto;
+      height: auto;
+      max-width: 100%;
     }
   
   

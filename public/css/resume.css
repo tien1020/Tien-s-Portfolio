@@ -58,7 +58,10 @@ body {
     font-size: 1.5rem;
   }
 
-
+  .resume-btn {
+    background-color: #f7797d;
+    font-weight: bold;
+  }
   
   .social-icons a {
     display: inline-block;

@@ -159,7 +159,9 @@ h5 {
     position: relative;
     float: left;
     width: 274px;
-    height: 200px;
+    height: 200px;  
+
+    margin: 20px 0 25px;
     overflow: auto;
   }
   
@@ -169,17 +171,18 @@ h5 {
   
   .work img {
     width: 200px;
-    height: 150px;
+    height: 150px; 
     border: 0 none;
   }
   
   
   .work a {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     width: 100%;
+    padding: 10px;
     margin-bottom: 0;
-    line-height: 15px;
+    line-height: 10px;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;

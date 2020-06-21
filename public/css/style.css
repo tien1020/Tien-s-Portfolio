@@ -304,13 +304,13 @@ h5 {
     
     #logo {    
       width:100%;
-      /* max-width: 575px; */
+      max-width: 575px; 
       margin-bottom: -30px;
       width:100%;
       text-align: left;
     }
     nav{
-      /* max-width: 575px; */
+      max-width: 575px; 
       width:50%;
       text-align:center;
       margin: 0;

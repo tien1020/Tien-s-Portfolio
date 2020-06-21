@@ -199,6 +199,17 @@ h5 {
     background-color: #f7797d;
     font-weight: bold;
   }
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  #sideNav .navbar-toggler:focus {
+    /* outline-color: #d48a6e; */
+    outline-color: teal;
+
+  }
 
   @media screen and (max-width: 980px) {
     .tien-image
@@ -208,61 +219,32 @@ h5 {
       max-width: 100%;
      }
 
-     #sideNav {
-      text-align: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-      width: 17rem;
-      height: 100vh;
-    }
-    #sideNav .navbar-brand {
-      display: flex;
-      margin: auto auto 0;
-      padding: 0.5rem;
-    }
-    #sideNav .navbar-brand .img-profile {
-      max-width: 10rem;
-      max-height: 10rem;
-      border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    }
-    #sideNav .navbar-collapse {
-      display: flex;
-      align-items: flex-start;
-      flex-grow: 0;
-      width: 100%;
-      margin-bottom: auto;
-    }
-    #sideNav .navbar-collapse .navbar-nav {
-      flex-direction: column;
-      width: 100%;
-    }
-    #sideNav .navbar-collapse .navbar-nav .nav-item {
-      display: block;
-    }
-    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-      display: block;
-    }
-    /* .container {
+     
+    .container {
  
       width: 100%;
       padding: 20px;
-    } */
-  
-  
-  
-    
+    } 
+    #masthead {
+      position: static;
+     clear: both; 
+     margin-bottom: 20px;
 
+   }  
+   
+  .navbar-toggler {
+    text-align: right;
+  }
+    
   }
 
   @media screen and (max-width: 768px) {
-    /* .container {
+   
+    .container {
   
       width: 100%;
       padding: 20px;
-    } */
+    } 
 
     .main-section {    
       width: 100%;
@@ -276,19 +258,18 @@ h5 {
       max-width: 768px;
     }
      #masthead {
-      position: static;
-      clear: both;
+       position: static;
+      clear: both; 
       margin-bottom: 20px;
 
     }  
-    #main-container {
+    /* #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
-    }
-.nav{
-  width: 100%;
-  text-align: left;
-}
+    } */
+
+    
+
 
 .work {   
   width: 100%;    
@@ -298,35 +279,20 @@ h5 {
   @media screen and (max-width: 575px) {
     #masthead {
       position: static;
-      clear: both; 
+      clear: both;  
       margin-bottom: 20px;
       
     }  
-    /* header {
-      padding: 0;
-    } */
     
-    #logo {    
-      max-width: 575px;
-      margin-bottom: -30px;
-      width:100%;
-      text-align: left;
-    }
-    nav{
-      max-width: 575px; 
-      width:100%;
-      text-align:left;
-      margin: 0;
-    }
     #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
     }
-    /* .container {
+    .container {
  
       width: 100%;
     
-    } */
+    } 
     .main-section {    
       width: 100%;
       max-width: 640px;  
@@ -344,6 +310,21 @@ h5 {
     .work {   
       width: 100%;    
     }   
+    #logo {
+      width: 100%;
+    }
+      header {
+        padding: 0;
+      }
+    .navbar-toggler{
+      text-align: center;
+      width: 100%;
+    }
+    nav {
+      text-align: center;
+      width: 100%;
+    }
+  
 
   }
   

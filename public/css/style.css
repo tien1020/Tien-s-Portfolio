@@ -242,11 +242,11 @@ h5 {
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
       display: block;
     }
-    .container {
+    /* .container {
  
       width: 100%;
       padding: 20px;
-    }
+    } */
   
   
   
@@ -255,28 +255,29 @@ h5 {
   }
 
   @media screen and (max-width: 768px) {
-    .container {
+    /* .container {
   
       width: 100%;
       padding: 20px;
-    }
+    } */
 
     .main-section {    
       width: 100%;
       max-width: 640px;  
     }
+
     .tien-image
    {
       width: 100%;
-      /* height: auto; */
+      height: auto; 
       max-width: 768px;
     }
-    /* #masthead {
+     #masthead {
       position: static;
       clear: both;
       margin-bottom: 20px;
 
-    }   */
+    }  
     #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
@@ -298,32 +299,31 @@ h5 {
       margin-bottom: 20px;
       
     }  
-    header {
+    /* header {
       padding: 0;
-    }
+    } */
     
     #logo {    
-      width:100%;
-      max-width: 575px; 
+      max-width: 575px;
       margin-bottom: -30px;
       width:100%;
       text-align: left;
     }
     nav{
       max-width: 575px; 
-      width:50%;
-      text-align:center;
+      width:100%;
+      text-align:left;
       margin: 0;
     }
     #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
     }
-    .container {
+    /* .container {
  
       width: 100%;
     
-    }
+    } */
     .main-section {    
       width: 100%;
       max-width: 640px;  

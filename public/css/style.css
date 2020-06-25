@@ -123,6 +123,9 @@ h5 {
     min-height: calc(100vh - 70px);
 
   }
+  .icon-img { 
+    display: inline-block!important;
+  }
   
   .main-section {
     float: left;
@@ -144,6 +147,7 @@ h5 {
     height: 70px;
     width: 70px;
   }
+ 
 
   .dev-icons {
     font-size: 40px;
@@ -335,7 +339,12 @@ h5 {
       width: 100%;
     }
   
-
+    .icon-img { 
+      width: 33%;
+      text-align: center;
+      display: inline-block;
+      }
+    
   
   }
 }

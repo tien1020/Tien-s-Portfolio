@@ -292,6 +292,10 @@ h5 {
       float: none;
 overflow: hidden;
 display: inline-block;
+
+    }
+    .work img{
+      width: 100%;
     }
     
   }

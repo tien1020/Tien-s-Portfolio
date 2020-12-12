@@ -1,6 +1,7 @@
 body {
-    color:#4d4d4d;
-    background-image: url("../images/Blue\ polygonal\ background.jpg") ;
+    color: black;
+
+    background-image: url("../images/smoke.jpg") ;
     background-size: cover;
     font-family: Georgia, Helvetica, sans-serif, serif, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -10,6 +11,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+
 }
 
 .title {
@@ -45,29 +47,38 @@ h5 {
     border-radius: 5px;
 }
 
-.fixed-bottom {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
-    height: 50px;
-  }
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #343a40;
+  text-align: center;
+  background: rgba(192,192,192, 0.5);
+  height: 50px;
+  border-top: 1px solid #868e96;
 
-  #masthead {
-    position: fixed;
+}
+
+#masthead {
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #921d1d;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    background: rgba(171, 205, 239, 0.3);
+    border-bottom: 1px solid #868e96;
+    background: rgba(192,192,192, 0.5);
   }
-  
+
+#heading {
+    z-index: 99;
+    width: 100%;
+    background: rgba(192,192,192, 0.5);
+    color: black;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid #868e96;
+    border-top: 1px solid #868e96;
+
+}
   #logo {
     float: left;
     width: 250px;
@@ -76,38 +87,52 @@ h5 {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #4d4d4d;
+    color: black;
     text-align: center;
     text-decoration: none;
   }
   
-  nav {
+  .navBarHead {
     float: right;
     margin-top: 25px;
     font-weight: bold;
   }
 
 
-  nav a {
-    display: inline-block;
+  .navBarHead a {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #4d4d4d;
+    display: inline-block;
+    color: black;
     text-decoration: none;
-    border-left: 1px solid #cccccc;
   }
 
-  /* nav li{
-    border-left: 1px solid #cccccc;
-  } */
+  .navHome {
+    width: 100%;
+      font-weight: bold;
+  }
+
+  .navHome a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+      padding-left: 15px;
+      margin-left: 15px;
+      padding-right: 15px;
+      margin-right: 15px;
+      line-height: 18px;
+  }
 
 
-  
-  nav a:first-child {
+   nav li{
+    border-left: 1px solid #868e96;
+
+  }
+
+  nav li:first-child {
     border-left: 0 none;
   }
- 
 
 .nav>li {
   display: inline-block;
@@ -115,8 +140,13 @@ h5 {
   white-space: nowrap;
   text-align: center;
 }
-.nav { 
+.nav {
   display: inline-block;
+}
+
+nav a:hover{
+  color: #BD5D38;
+
 }
   #main-container {
     padding-top: 130px;
@@ -131,11 +161,13 @@ h5 {
     float: left;
     width: 100%;
     max-width: 960px;
-    padding: 30px;
+    padding: 20px;
     margin: 0 0 40px;
     background: #ffffff;
     margin-bottom: 40%;
-    background: rgba(171, 205, 239, 0.3)
+    background: rgba(245,245,245, 0.5);
+    border: 1px solid #868e96;
+
   }
 
  #linkedin-logo:hover, #github-logo:hover, .resume-btn:hover {
@@ -151,7 +183,7 @@ h5 {
 
   .dev-icons {
     font-size: 40px;
-    color: #4d4d4d;
+    color: #343a40;
   }
   
   .dev-icons .list-inline-item i:hover {
@@ -171,41 +203,6 @@ h5 {
     text-align: center;
     padding: 0%;
     padding-top: 20px;
-  }
-
-  .work {
-    position: relative;
-    float: left;
-    width: 100%;
-    height: 300px;  
-
-    margin: 20px 0 25px;
-    overflow: auto;
-  }
-  
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
-  .work img {
-    width: 300px;
-    height: 250px; 
-    border: 0 none;
-  }
-  
-  
-  .work a {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 0;
-    line-height: 15px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    font-size: 12px;
-    font-weight: bold;
   }
   
 
@@ -229,6 +226,34 @@ h5 {
 
   }
 
+  .card {
+    color: black;
+    background-color: whitesmoke;
+  }
+
+  .card img {
+    width: 350px;
+    height: 250px;
+  }
+
+  #github-btn {
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  #github-btn:hover{
+    opacity: 0.2;
+  }
+
+  .view-btn {
+    width: 60px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+  }
+
   @media screen and (max-width: 980px) {
     .tien-image
     {
@@ -240,7 +265,7 @@ h5 {
     .container {
  
       width: 100%;
-      padding: 20px;
+      /*padding: 20px;*/
     } 
     #masthead {
       position: static;
@@ -255,6 +280,28 @@ h5 {
 
     
   }
+      #heading {
+          position: static;
+          clear: both;
+          height: 100px;
+          margin-bottom: 40px;
+
+      }
+
+      .navHome {
+          text-align: center;
+          width: 100%;
+      }
+      .smoke video {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          height: max-content;
+      }
+
+      .smoke span{
+          font-size: 80%;
+      }
   }
   
 
@@ -297,6 +344,28 @@ display: inline-block;
     .work img{
       width: 100%;
     }
+      #heading {
+          position: static;
+          clear: both;
+          height: 100px;
+          margin-bottom: 40px;
+
+      }
+
+      .navHome {
+          text-align: center;
+          width: 100%;
+      }
+      .smoke video {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          height: max-content;
+      }
+
+      .smoke span{
+          font-size: 40%;
+      }
     
   }
 
@@ -306,8 +375,27 @@ display: inline-block;
       clear: both;  
       margin-bottom: 20px;
       
-    }  
-    
+    }
+
+      #heading {
+          position: static;
+          clear: both;
+          height: 100px;
+          margin-bottom: 40px;
+
+      }
+      .smoke video {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        height: max-content;
+    }
+
+    .smoke span{
+        font-size: 20%;
+    }
+
+
     #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
@@ -336,19 +424,25 @@ display: inline-block;
     }   
     #logo {
       width: 100%;
+      color: white
     }
-      header {
-        padding: 0;
-      }
   
     nav {
       text-align: center;
       width: 100%;
     }
+
+.navHome{
+    width: 100%;
+}
   
     .nav {
       text-align: center;
       width: 100%;
+    }
+
+    nav li{
+        padding-top: 10px;
     }
   
     .icon-img { 

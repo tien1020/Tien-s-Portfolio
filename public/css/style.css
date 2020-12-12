@@ -204,8 +204,13 @@ nav a:hover{
     padding: 0%;
     padding-top: 20px;
   }
-  
 
+.smoke video {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: max-content;
+}
   #linkedin {
     font-weight: bold;
     font-size: 20px;

@@ -270,29 +270,20 @@ nav a:hover{
      }
      
     .container {
- 
       width: 100%;
-      /*padding: 20px;*/
-    } 
+    }
     #masthead {
       position: static;
      clear: both; 
      margin-bottom: 20px;
 
-   }  
-   .work{
-    width: 100%;
-    clear: both; 
-    display:inline-block;
-
-    
-  }
+   }
       #heading {
           position: static;
-          clear: both;
+          /*clear: both;*/
           height: 100px;
           margin-bottom: 40px;
-
+          font-size: 80%;
       }
 
       .navHome {
@@ -340,17 +331,8 @@ nav a:hover{
      #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
-    } 
-    .work{
-      width: 100%;
-      float: none;
-overflow: hidden;
-display: inline-block;
+    }
 
-    }
-    .work img{
-      width: 100%;
-    }
       #heading {
           position: static;
           clear: both;
@@ -384,14 +366,16 @@ display: inline-block;
       
     }
 
-      #heading {
+    #heading {
           position: static;
           clear: both;
           height: 100px;
           margin-bottom: 40px;
+        font-size: 60%;
 
-      }
-      .smoke video {
+
+    }
+      video {
         width: 100%;
         text-align: center;
         display: inline-block;
@@ -425,10 +409,7 @@ display: inline-block;
     h4{
       font-size: 20px;
     }
-    
-    .work {   
-      width: 100%;    
-    }   
+
     #logo {
       width: 100%;
       color: white
@@ -439,9 +420,9 @@ display: inline-block;
       width: 100%;
     }
 
-.navHome{
+    .navHome{
     width: 100%;
-}
+    }
   
     .nav {
       text-align: center;
@@ -457,8 +438,6 @@ display: inline-block;
       text-align: center;
       display: inline-block;
       }
-    
-  
   }
 
   

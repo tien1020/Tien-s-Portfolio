@@ -53,7 +53,7 @@ footer {
   font-size: 12px;
   color: #343a40;
   text-align: center;
-  background: rgba(192,192,192, 0.5);
+  background: rgb(192,192,192);
   height: 50px;
   border-top: 1px solid #868e96;
 
@@ -65,13 +65,13 @@ footer {
     margin: 0 0 30px;
     overflow: auto;
     border-bottom: 1px solid #868e96;
-    background: rgba(192,192,192, 0.5);
+    background: rgb(192,192,192);
   }
 
 #heading {
     z-index: 99;
     width: 100%;
-    background: rgba(192,192,192, 0.5);
+    background: rgb(192,192,192);
     color: black;
     text-align: center;
     height: 50px;
@@ -236,18 +236,20 @@ nav a:hover{
     background-color: whitesmoke;
   }
 
-  .card img {
-    width: 350px;
-    height: 250px;
+  .card-img-top {
+      width: 350px;
+      height: 350px;
+      padding-top: 20px;
+
   }
 
-  #github-btn {
+  .github-btn {
     width: 60px;
     height: 50px;
     border-radius: 5px;
   }
 
-  #github-btn:hover{
+  .github-btn:hover{
     opacity: 0.2;
   }
 
@@ -397,7 +399,7 @@ display: inline-block;
     }
 
     .smoke span{
-        font-size: 20%;
+        font-size: 15%;
     }
 
 

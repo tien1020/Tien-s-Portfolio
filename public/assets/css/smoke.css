@@ -32,7 +32,6 @@ video{
     text-transform: uppercase;
 }
 .smoke h1 span{
-
     display: inline-block;
     animation: animate 1s linear forwards;
 }

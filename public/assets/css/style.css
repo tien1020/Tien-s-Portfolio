@@ -205,6 +205,11 @@ nav a:hover{
     padding-top: 20px;
   }
 
+.smoke{
+    width: 100%;
+    text-align: center;
+}
+
 .smoke video {
     width: 100%;
     text-align: center;
@@ -280,7 +285,7 @@ nav a:hover{
    }
       #heading {
           position: static;
-          /*clear: both;*/
+          clear: both;
           height: 100px;
           margin-bottom: 40px;
           font-size: 80%;
@@ -290,6 +295,11 @@ nav a:hover{
           text-align: center;
           width: 100%;
       }
+      .smoke{
+          width: 100%;
+          text-align: center;
+      }
+
       .smoke video {
           width: 100%;
           text-align: center;
@@ -352,15 +362,18 @@ nav a:hover{
           display: inline-block;
           text-align:center;
       }
+      .smoke{
+          width: 100%;
+          text-align: center;
+      }
+
       .smoke video {
           width: 100%;
           text-align: center;
           display: inline-block;
           height: max-content;
       }
-.smoke {
-    height: auto;
-}
+
       .smoke span{
           font-size: 40%;
       }
@@ -381,15 +394,20 @@ nav a:hover{
           height: 100px;
           margin-bottom: 40px;
         font-size: 80%;
-
-
     }
-    /*  video {*/
-    /*    width: 100%;*/
-    /*    text-align: center;*/
-    /*    display: inline-block;*/
-    /*    height: max-content;*/
-    /*}*/
+
+
+      .smoke{
+          width: 100%;
+          text-align: center;
+      }
+
+      .smoke video {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          height: max-content;
+      }
 
     .smoke span{
         font-size: 15%;

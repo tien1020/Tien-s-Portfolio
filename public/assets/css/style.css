@@ -382,16 +382,12 @@ nav a:hover{
 
 
     }
-      video {
-        width: 100%;
-        text-align: center;
-        display: inline-block;
-        height: max-content;
-    }
-
-      .smoke {
-          height: auto;
-      }
+    /*  video {*/
+    /*    width: 100%;*/
+    /*    text-align: center;*/
+    /*    display: inline-block;*/
+    /*    height: max-content;*/
+    /*}*/
 
     .smoke span{
         font-size: 15%;

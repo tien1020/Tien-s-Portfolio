@@ -389,6 +389,10 @@ nav a:hover{
         height: max-content;
     }
 
+      .smoke {
+          height: auto;
+      }
+
     .smoke span{
         font-size: 15%;
     }

@@ -344,6 +344,13 @@ nav a:hover{
       .navHome {
           text-align: center;
           width: 100%;
+          display: inline-block;
+
+      }
+
+      #nav li {
+          display: inline-block;
+          text-align:center;
       }
       .smoke video {
           width: 100%;

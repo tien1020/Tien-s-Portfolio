@@ -215,10 +215,10 @@ nav a:hover{
     padding-top: 20px;
   }
 
-.smoke{
-    width: 100%;
-    text-align: center;
-}
+/*.smoke{*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
 
 /*.smoke video {*/
 /*    width: max-content;*/
@@ -304,10 +304,10 @@ nav a:hover{
       }
 
       .smoke video {
-          width: 100%;
-          text-align: center;
-          display: inline-block;
-          height: max-content;
+          /*width: 100%;*/
+          /*text-align: center;*/
+          /*display: inline-block;*/
+          /*height: max-content;*/
       }
 
       .smoke span{
@@ -371,10 +371,10 @@ nav a:hover{
       /*}*/
 
       .smoke video {
-          width: 100%;
-          text-align: center;
-          display: inline-block;
-          height: max-content;
+          /*width: 100%;*/
+          /*text-align: center;*/
+          /*display: inline-block;*/
+          /*height: max-content;*/
       }
 
       .smoke span{
@@ -406,10 +406,11 @@ nav a:hover{
       /*}*/
 
       .smoke video {
-          width: 100%;
-          text-align: center;
-          display: inline-block;
-          height: max-content;
+          /*height: auto;*/
+          /*width: 100%;*/
+          /*text-align: center;*/
+          /*display: inline-block;*/
+          /*height: max-content;*/
       }
 
     .smoke span{

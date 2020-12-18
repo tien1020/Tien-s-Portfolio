@@ -26,7 +26,60 @@
   <component name="ChangeListManager">
     <list default="true" id="10697130-7f04-471e-ba1c-10db23d5072f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/smoke.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/smoke.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/61OWseBdYEL.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/61OWseBdYEL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/APIC.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/APIC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Blue polygonal background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/Blue polygonal background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/GIFTASTIC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/GIFTASTIC.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/GitHub-Mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/GitHub-Mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/IMG_9904.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/IMG_9904.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/LinkedIn_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/LinkedIn_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Mickey-mouse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/Mickey-mouse.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/SallieShoppe.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/SallieShoppe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Tien-NguyenResume.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/Tien-NguyenResume.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Tien-chicago.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/Tien-chicago.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Tien_Resume.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/Tien_Resume.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/books.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/chicago.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/chicago.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gameoflife.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/gameoflife.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/github-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/github-logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/github.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/github.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/gold.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/index1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/index1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/learn-code-e1455713167295.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/learn-code-e1455713167295.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/navsil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/navsil.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoppingcart-1066110386.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/shoppingcart-1066110386.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/silver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/silver.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/silver1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/silver1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/silver2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/silver2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/smoke.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/smoke.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/tienprofile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/tienprofile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/train.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/train.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/trainchedule.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/trainchedule.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/trainimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/trainimg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/trian2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/trian2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/trivia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/trivia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/zip.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/zip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/—Pngtree—fantasy starry colorful powder texture_3817892.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/—Pngtree—fantasy starry colorful powder texture_3817892.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/video/smoke.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/video/smoke.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +97,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/ColorFull Smoke" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/NEIU-CS412/neiu-cs-412" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -63,7 +116,7 @@
       <updated>1607640274050</updated>
       <workItem from="1607640275189" duration="29796000" />
       <workItem from="1608150240990" duration="7306000" />
-      <workItem from="1608307800587" duration="2589000" />
+      <workItem from="1608307800587" duration="3366000" />
     </task>
     <servers />
   </component>
@@ -87,25 +140,25 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="96" y="7" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1607640395422" />
-    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1607645121441">
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1608315480942">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1607645121441" />
-    <state width="1259" height="176" key="GridCell.Tab.0.bottom" timestamp="1608313625410">
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1608315480942" />
+    <state width="1259" height="176" key="GridCell.Tab.0.bottom" timestamp="1608315458408">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1608313625410" />
-    <state width="1259" height="176" key="GridCell.Tab.0.center" timestamp="1608313625410">
+    <state width="1259" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1608315458408" />
+    <state width="1259" height="176" key="GridCell.Tab.0.center" timestamp="1608315458408">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1608313625410" />
-    <state width="1259" height="176" key="GridCell.Tab.0.left" timestamp="1608313625409">
+    <state width="1259" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1608315458408" />
+    <state width="1259" height="176" key="GridCell.Tab.0.left" timestamp="1608315458407">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1608313625409" />
-    <state width="1259" height="176" key="GridCell.Tab.0.right" timestamp="1608313625410">
+    <state width="1259" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1608315458407" />
+    <state width="1259" height="176" key="GridCell.Tab.0.right" timestamp="1608315458408">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1608313625410" />
+    <state width="1259" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1608315458408" />
   </component>
 </project>

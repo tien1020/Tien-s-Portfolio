@@ -8,6 +8,7 @@ var corsOptions = {
   optionsSuccessStatus: 200
 };
 
+
 app.use(express.static("public"));
 
 app.use("/cors/*", function(req, res) {

@@ -19,7 +19,7 @@
 }
 video{
     object-fit: cover;
-    /*position: relative;*/
+    position: relative;
 
 }
 .smoke h1{

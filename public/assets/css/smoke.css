@@ -1,6 +1,6 @@
 .smoke{
     height: 100vh;
-    background: #ffffff;
+    background: black;
     overflow: hidden;
 }
 .smoke::before{

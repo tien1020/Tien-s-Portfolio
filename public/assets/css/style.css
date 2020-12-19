@@ -307,7 +307,7 @@ nav a:hover{
       .smoke video {
           width: 100%;
           /*text-align: center;*/
-          display: inline-block;
+          display: block;
           height: max-content;
       }
 

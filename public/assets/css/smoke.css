@@ -1,5 +1,5 @@
 .smoke{
-    height: 100vh;
+    height: max-content;
     background: black;
     overflow: hidden;
 }

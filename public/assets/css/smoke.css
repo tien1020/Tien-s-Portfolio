@@ -8,7 +8,7 @@
     top:0;
     left: 0;
     width: 100%;
-    height:100%;
+    height:max-content;
     overflow: hidden;
 
 
@@ -19,7 +19,7 @@
     top:0;
     left: 0;
     width: 100%;
-    height:100%;
+    height:max-content;
     background: linear-gradient(to right, #f00,#f00,#0f0,#0ff,#ff0,#0ff);
     mix-blend-mode: color;
     pointer-events: none;

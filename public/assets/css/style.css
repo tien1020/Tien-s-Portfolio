@@ -290,24 +290,17 @@ nav a:hover{
      margin-bottom: 20px;
 
    }
-      #heading {
-          position: static;
-          clear: both;
-          height: 100px;
-          margin-bottom: 40px;
-          font-size: 80%;
-      }
+      /*#heading {*/
+      /*    position: static;*/
+      /*    clear: both;*/
+      /*    height: 100px;*/
+      /*    margin-bottom: 40px;*/
+      /*    font-size: 80%;*/
+      /*}*/
 
       .navHome {
           text-align: center;
           width: 100%;
-      }
-
-      .smoke video {
-          /*width: 100%;*/
-          /*text-align: center;*/
-          /*display: inline-block;*/
-          /*height: max-content;*/
       }
 
       .smoke span{
@@ -346,13 +339,13 @@ nav a:hover{
       min-height: calc(100vh - 70px);
     }
 
-      /*#heading {*/
-      /*    position: static;*/
-      /*    clear: both;*/
-      /*    height: 100px;*/
-      /*    margin-bottom: 40px;*/
+      #heading {
+          position: static;
+          clear: both;
+          height: 100px;
+          margin-bottom: 40px;
 
-      /*}*/
+      }
 
       .navHome {
           text-align: center;
@@ -392,11 +385,11 @@ nav a:hover{
     }
 
     #heading {
-          /*position: static;*/
-          /*clear: both;*/
-          /*height: 100px;*/
-          /*margin-bottom: 40px;*/
-        /*font-size: 80%;*/
+          position: static;
+          clear: both;
+          height: 100px;
+          margin-bottom: 40px;
+        font-size: 80%;
     }
 
 

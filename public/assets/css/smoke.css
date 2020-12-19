@@ -3,7 +3,7 @@
     background: black;
     overflow: hidden;
 }
-.smoke::before{
+.smokeVideo::before{
     content: '';
     position: absolute;
     top:0;

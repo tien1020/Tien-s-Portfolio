@@ -1,18 +1,17 @@
 .smoke{
+    height: max-content;
     background: black;
     width: 100%;
 }
 
-.smokeVideo {
-    position: relative;
-    top:0;
-    left: 0;
-    width: 100%;
-    height:max-content;
-    overflow: hidden;
+/*.smokeVideo {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height:max-content;*/
 
 
-}
+
+/*}*/
 .smokeVideo::before{
     content: '';
     position: absolute;
@@ -26,6 +25,7 @@
 }
 video{
     object-fit: cover;
+    position: relative;
 
 }
 .smoke h1{

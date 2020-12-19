@@ -1,11 +1,10 @@
-
 .smoke{
     height: 100vh;
     background: black;
     overflow: hidden;
 }
 
-.smokeVideo::before{
+.smoke::before{
     content: '';
     position: absolute;
     top:0;

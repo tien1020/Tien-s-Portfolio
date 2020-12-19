@@ -223,8 +223,8 @@ nav a:hover{
 .smoke video {
     width: 100%;
     /*height: max-content;*/
-/*    text-align: center;*/
-    display: block;
+    text-align: center;
+    display: inline-block
 /*    height: max-content;*/
 }
   #linkedin {

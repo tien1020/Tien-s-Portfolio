@@ -222,6 +222,7 @@ nav a:hover{
 
 .smoke video {
     width: 100%;
+    height: max-content;
 /*    text-align: center;*/
 /*    display: inline-block;*/
 /*    height: max-content;*/
@@ -307,7 +308,7 @@ nav a:hover{
           width: 100%;
           /*text-align: center;*/
           display: inline-block;
-          height: 100%;
+          height: max-content;
       }
 
       .smoke span{
@@ -374,7 +375,7 @@ nav a:hover{
           width: 100%;
           /*text-align: center;*/
           display: inline-block;
-          height: 100%;
+          height: max-content;
       }
 
       .smoke span{
@@ -402,11 +403,11 @@ nav a:hover{
 
       .smoke{
           width: 100%;
-          height: 100%;
+          text-align: center;
       }
 
       video {
-          height: 100%;
+          height: max-content;
           width: 100%;
           /*text-align: center;*/
           display: inline-block;

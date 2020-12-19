@@ -220,12 +220,12 @@ nav a:hover{
 /*    text-align: center;*/
 /*}*/
 
-/*.smoke video {*/
-/*    width: max-content;*/
+.smoke video {
+    width: 100%;
 /*    text-align: center;*/
 /*    display: inline-block;*/
 /*    height: max-content;*/
-/*}*/
+}
   #linkedin {
     font-weight: bold;
     font-size: 20px;

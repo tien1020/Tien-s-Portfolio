@@ -307,7 +307,7 @@ nav a:hover{
           width: 100%;
           /*text-align: center;*/
           display: inline-block;
-          height: max-content;
+          height: 100%;
       }
 
       .smoke span{
@@ -374,7 +374,7 @@ nav a:hover{
           width: 100%;
           /*text-align: center;*/
           display: inline-block;
-          height: max-content;
+          height: 100%;
       }
 
       .smoke span{
@@ -410,7 +410,6 @@ nav a:hover{
           width: 100%;
           /*text-align: center;*/
           display: inline-block;
-          height: max-content;
       }
 
     .smoke span{

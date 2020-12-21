@@ -3,6 +3,8 @@
     background: black;
     overflow: hidden;
     text-align: center;
+    /*position: relative;*/
+
 
 }
 
@@ -20,6 +22,7 @@
 video{
     object-fit: cover;
     position: relative;
+    height: 85vh;
 
 }
 .smoke h1{

@@ -113,6 +113,8 @@ footer {
   .navBarHead a {
     padding-left: 15px;
     margin-left: 15px;
+      padding-right: 15px;
+      margin-right: 15px;
     line-height: 18px;
     display: inline-block;
     color: whitesmoke;
@@ -393,9 +395,7 @@ nav a:hover{
       margin-bottom: 20px;
       
     }
-      .navBarHead{
-          font-size: 80%;
-      }
+
 
     #heading {
           position: static;
@@ -469,7 +469,7 @@ nav a:hover{
     /*    padding-top: 10px;*/
     /*}*/
   .card-img-top{
-      width: 80%;
+      width: 90%;
   }
     .icon-img { 
       width: 33%;

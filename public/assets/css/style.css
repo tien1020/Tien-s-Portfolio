@@ -393,6 +393,9 @@ nav a:hover{
       margin-bottom: 20px;
       
     }
+      .navBarHead{
+          font-size: 80%;
+      }
 
     #heading {
           position: static;

@@ -55,11 +55,11 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #343a40;
+  color: whitesmoke;
   text-align: center;
-  background: rgb(192,192,192);
+  background: rgb(55,54,54);
   height: 50px;
-  border-top: 1px solid #868e96;
+  /*border-top: 1px solid #868e96;*/
 
 }
 
@@ -75,18 +75,19 @@ footer {
     margin: 0 0 30px;
     overflow: auto;
     border-bottom: 1px solid #868e96;
-    background: rgb(192,192,192);
+    /*background: rgb(192,192,192);*/
+    background: rgb(55,54,54);
   }
 
 #heading {
     z-index: 99;
     width: 100%;
-    background: rgb(192,192,192);
-    color: black;
+    background: black;
+    color: whitesmoke;
     text-align: center;
     height: 50px;
-    border-bottom: 1px solid #868e96;
-    border-top: 1px solid #868e96;
+    /*border-bottom: 1px solid #868e96;*/
+    /*border-top: 1px solid #868e96;*/
 
 }
   #logo {
@@ -97,7 +98,7 @@ footer {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     text-decoration: none;
   }
@@ -114,7 +115,7 @@ footer {
     margin-left: 15px;
     line-height: 18px;
     display: inline-block;
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
   }
 
@@ -125,7 +126,7 @@ footer {
 
   .navHome a {
     display: inline-block;
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
       padding-left: 15px;
       margin-left: 15px;
@@ -256,6 +257,7 @@ nav a:hover{
       width: 350px;
       height: 350px;
       padding-top: 20px;
+      display: block;
 
   }
 

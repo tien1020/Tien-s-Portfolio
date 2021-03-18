@@ -18,8 +18,4 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/portfolio.html"));
   });
 
-  app.get("/resume", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/resume.html"));
-  });
-
 };

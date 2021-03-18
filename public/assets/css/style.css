@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-image: url("../images/smoke.jpg") ;
+    background-color: white ;
     background-size: cover;
     font-family: Georgia, Helvetica, sans-serif, serif, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }

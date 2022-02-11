@@ -13,6 +13,10 @@ body {
 
 }
 
+.main-bio{
+  padding: 15px;
+}
+
 .container-fluid {
     padding: 0 !important;
 
@@ -43,6 +47,7 @@ h5 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  
 }
 
 #github-logo{
@@ -239,7 +244,7 @@ nav a:hover{
     font-size: 20px;
   }
   .resume-btn {
-    background-color: #f7797d;
+    background-color: #C0C0C0;
     font-weight: bold;
   }
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -291,6 +296,7 @@ nav a:hover{
       width: auto;
       height: auto;
       max-width: 100%;
+      padding-right: 10px;
      }
 
     #masthead {
@@ -342,6 +348,7 @@ nav a:hover{
    {
       width: 100%;
       height: auto; 
+      padding-right:10px;
       max-width: 768px;
     }
      #masthead {
@@ -444,6 +451,7 @@ nav a:hover{
     }
     .tien-image {    
       width: 100%;    
+ 
     }
     .fullstack{
       font-size: 90%;

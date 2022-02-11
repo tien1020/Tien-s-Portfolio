@@ -370,6 +370,14 @@ nav a:hover{
 
       }
 
+      .top-head{
+        height: 65vh;
+      }
+  
+      #headimg{
+        height: 65vh;
+      }
+
       .navHome {
           text-align: center;
           width: 100%;
@@ -475,7 +483,11 @@ nav a:hover{
     }
 
     .top-head{
-      height: 50%;
+      height: 45vh;
+    }
+
+    #headimg{
+      height: 45vh;
     }
 
     .nav {

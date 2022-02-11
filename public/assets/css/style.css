@@ -227,16 +227,16 @@ nav a:hover{
     padding-top: 20px;
   }
 
-/*.smoke{*/
-/*    width: 100%;*/
-/*    text-align: center;*/
-/*}*/
+.smoke{
+   padding-right: 50px;
+}
 
 .smoke video {
-    width: 100%;
+    width: 120%;
     /*height: max-content;*/
     text-align: center;
     display: block;
+    /* padding-left: 50px; */
 /*    height: max-content;*/
 }
   #linkedin {
@@ -319,10 +319,15 @@ nav a:hover{
       }
 
       .smoke video {
-          width: 100%;
+          width: 120%;
           /*text-align: center;*/
           display: block;
           /*height: max-content;*/
+
+      }
+
+      .smoke{
+        padding-right:50px;
       }
 
       .smoke span{
@@ -389,13 +394,12 @@ nav a:hover{
           display: inline-block;
           text-align:center;
       }
-      /*.smoke{*/
-      /*    width: 100%;*/
-      /*    text-align: center;*/
-      /*}*/
+      .smoke{
+         padding-right: 50px;
+      }
 
       .smoke video {
-          width: 100%;
+          width: 120%;
           /*text-align: center;*/
           display: block;
           /*height: max-content;*/
@@ -430,11 +434,12 @@ nav a:hover{
       .smoke{
           width: 100%;
           text-align: center;
+          padding-right: 50px;
       }
 
       video {
           height: 100%;
-          width: 100%;
+          width: 120%;
           /*text-align: center;*/
           display: block;
       }

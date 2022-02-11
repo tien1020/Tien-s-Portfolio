@@ -474,6 +474,10 @@ nav a:hover{
     width: 100%;
     }
 
+    .top-head{
+      height: 50%;
+    }
+
     .nav {
       text-align: center;
       width: 100%;

@@ -64,7 +64,6 @@ footer {
   text-align: center;
   background: rgb(43,43,43);
   height: 50px;
-  /*border-top: 1px solid #868e96;*/
 
 }
 
@@ -80,7 +79,6 @@ footer {
     margin: 0 0 30px;
     overflow: auto;
     border-bottom: 1px solid #868e96;
-    /*background: rgb(192,192,192);*/
     background: rgb(43,43,43);
   }
 
@@ -233,11 +231,8 @@ nav a:hover{
 
 .smoke video {
     width: 120%;
-    /*height: max-content;*/
     text-align: center;
     display: block;
-    /* padding-left: 50px; */
-/*    height: max-content;*/
 }
   #linkedin {
     font-weight: bold;
@@ -254,7 +249,6 @@ nav a:hover{
   }
   
   #sideNav .navbar-toggler:focus {
-    /* outline-color: #d48a6e; */
     outline-color: teal;
 
   }
@@ -305,13 +299,7 @@ nav a:hover{
      margin-bottom: 20px;
 
    }
-      /*#heading {*/
-      /*    position: static;*/
-      /*    clear: both;*/
-      /*    height: 100px;*/
-      /*    margin-bottom: 40px;*/
-      /*    font-size: 80%;*/
-      /*}*/
+
 
       .navHome {
           text-align: center;
@@ -320,9 +308,7 @@ nav a:hover{
 
       .smoke video {
           width: 120%;
-          /*text-align: center;*/
           display: block;
-          /*height: max-content;*/
 
       }
 
@@ -341,7 +327,6 @@ nav a:hover{
     .container {
   
       width: 100%;
-      /* padding: 20px; */
     } 
 
     .main-section {    
@@ -399,9 +384,7 @@ nav a:hover{
 
       .smoke video {
           width: 120%;
-          /*text-align: center;*/
           display: block;
-          /*height: max-content;*/
       }
 
       .smoke span{
@@ -438,7 +421,6 @@ nav a:hover{
       video {
           height: 100%;
           width: 120%;
-          /*text-align: center;*/
           display: block;
       }
 
@@ -460,15 +442,12 @@ nav a:hover{
     } 
     .main-section {    
       width: 100%;
-      /*max-width: 640px;  */
     }
     .tien-image {    
       width: 100%;    
  
     }
-    .fullstack{
-      font-size: 90%;
-    }
+
     h4{
       font-size: 20px;
     }
@@ -500,9 +479,7 @@ nav a:hover{
       width: 100%;
     }
 
-    /*nav li{*/
-    /*    padding-top: 10px;*/
-    /*}*/
+
   .card-img-top{
       width: 90%;
   }

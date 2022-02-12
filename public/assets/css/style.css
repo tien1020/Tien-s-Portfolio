@@ -341,7 +341,7 @@ nav a:hover{
     .container {
   
       width: 100%;
-      padding: 20px;
+      /* padding: 20px; */
     } 
 
     .main-section {    
@@ -370,7 +370,6 @@ nav a:hover{
       #heading {
           position: static;
           clear: both;
-          height: 100px;
           margin-bottom: 40px;
 
       }
@@ -425,8 +424,7 @@ nav a:hover{
     #heading {
           position: static;
           clear: both;
-          /*height: 100px;*/
-          /*margin-bottom: 40px;*/
+
         font-size: 80%;
     }
 

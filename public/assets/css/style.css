@@ -446,7 +446,9 @@ nav a:hover{
         font-size: 15%;
     }
 
-
+    .fullstack{
+      display: none;
+    }
     #main-container {
       padding-top: 10px;
       min-height: calc(100vh - 70px);
